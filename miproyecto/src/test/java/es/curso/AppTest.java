@@ -43,13 +43,13 @@ public class AppTest
     @Test
     public void pruebaMayor1()
     {
-        int resultado = App.mayor(5, 10)
+        int resultado = App.mayor(5, 10);
         assertEquals( resultado, 10 );
     }
     @Test
     public void pruebaMayor2()
     {
-        int resultado = App.mayor(10, 5)
+        int resultado = App.mayor(10, 5);
         assertEquals( resultado, 10 );
     }
 }
