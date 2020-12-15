@@ -53,11 +53,5 @@ public class AppTest
         assertEquals( resultado, 10 );
     }
     
-    @Test
-    public void pruebaMayor2()
-    {
-        int resultado = App.mayor(10, 5);
-        assertEquals( resultado, 5 );
-    }
 
 }
